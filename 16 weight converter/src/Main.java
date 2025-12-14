@@ -37,6 +37,24 @@ public class Main{
             System.out.println("This is not a valid choice!");
         }
 
+              /*double temp;
+        double mewTemp;
+        String unit;
+
+        System.out.println("Enter the temperature: ");
+        temp = scanner.nextDouble();
+
+        scanner.nextLine();
+
+        System.out.println("Enter the Type you want to convert(c,f): ");
+        unit = scanner.nextLine().toUpperCase();
+
+        newTemp = (unit.equals("C")) ? (temp - 32) * 5.0 / 9.0 : (temp * 5.0/9.0)+32;
+
+        System.out.printf("The new Temperature is %.2f°%s",newTemp,unit);
+
+         */
+
         scanner.close();
 
     }
