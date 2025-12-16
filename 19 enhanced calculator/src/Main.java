@@ -17,7 +17,7 @@ public class Main{
         System.out.print("Enter an operator (+,-,*,/,^): ");
         operator = scanner.next().charAt(0);
 
-        System.out.println("Enter the second   number: ");
+        System.out.println("Enter the second number: ");
         num2 = scanner.nextDouble();
 
 

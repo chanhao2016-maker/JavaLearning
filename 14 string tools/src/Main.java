@@ -6,7 +6,7 @@ public class Main{
 
 
         //int length = name.length();
-        //char letter = name.charAt(0);
+        char letter = name.charAt(0);
         //int index = name.indexOf("a");
         //int lastIndex = name.lastIndexOf("a");
 
@@ -14,6 +14,8 @@ public class Main{
         // name = name.toLowerCase();
         // name = name.trim();
         // name = name.replace("o", "a");
+
+        System.out.println(letter);
 
         /*
 
@@ -38,13 +40,15 @@ public class Main{
          */
 
 
-        if(name.equals("password")){
+      /*  if(name.equals("password")){
             System.out.println("Your name CAN'T be password");
         }
 
         else{
             System.out.println("Hello " + name);
         }
+
+       */
 
     }
 }
