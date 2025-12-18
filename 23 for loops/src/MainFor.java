@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Mainfor {
+public class MainFor {
     public static void main(String[]args) throws InterruptedException {
         // for loop = execute some code a CERTAIN amount of times
 
@@ -8,7 +8,7 @@ public class Mainfor {
 
         int start = 10;
 
-        System.out.println("How many seconds to countdown from?: ");
+        System.out.print("How many seconds to countdown from?: ");
 
         start = scanner.nextInt();
 

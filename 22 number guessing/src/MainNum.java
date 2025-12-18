@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Mainnum {
+public class MainNum {
     public static void main(String[]args){
 
         // NUMBER GUESSING GAME
@@ -16,7 +16,7 @@ public class Mainnum {
         int randomNumber = random.nextInt(min,max+1);
 
         System.out.println("Number Guessing Game");
-        System.out.printf("Guess a number between %d - %d: \n",min, max);
+        System.out.printf("Guess a number between %d - %d \n\n",min, max);
 
         do{
             System.out.print("Enter a guess: ");

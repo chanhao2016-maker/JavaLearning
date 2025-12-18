@@ -11,7 +11,7 @@ public class Main{
         double result=0;
         boolean validOperation = true;
 
-        System.out.println("Enter the first number: ");
+        System.out.print("Enter the first number: ");
         num1 = scanner.nextDouble();
 
         System.out.print("Enter an operator (+,-,*,/,^): ");
@@ -29,7 +29,6 @@ public class Main{
             case '/' -> {
                 if (num2 == 0) {
                     System.out.println("Cannot divide by zero!");
-                    System.exit(0);
                     validOperation = false;
                 }
 
