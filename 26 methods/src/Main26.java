@@ -7,6 +7,8 @@ public class Main26{
         String name = "Chan hao";
         int age = 24;
         happyBirthday(name, age);
+        happyBirthday(name, age);
+        happyBirthday(name, age);
 
         double cube = cube(3);
         System.out.println(cube(3));
