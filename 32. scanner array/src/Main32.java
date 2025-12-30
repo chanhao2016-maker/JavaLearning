@@ -10,7 +10,7 @@ public class Main32{
 
         System.out.print("What # number of food do you want: ");
         size = scanner.nextInt();
-        scanner.nextLine(); 
+        scanner.nextLine();
 
         foods = new String[size];
 
