@@ -22,7 +22,7 @@ public class Main58 {
                 but I afraid I will hurt their feelings but I guess people gets hurts
                 so just be myself don't worry others, let them do their homework.
                 """;
-        
+
         try(FileWriter writer = new FileWriter(filePath)) {
             writer.write(textContent);
             System.out.println("File has been written.");
