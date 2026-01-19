@@ -4,6 +4,7 @@ public class MainTest61 {
     public static void main(String[] args) {
 
         // Java Hangman Game (String[]) try try
+
         String word = "superman";
 
         Scanner scanner = new Scanner(System.in);
@@ -71,6 +72,8 @@ public class MainTest61 {
         }
 
         scanner.close();
+
+
 
 
     } static String getHangmanArt(int wrongGuesses){
